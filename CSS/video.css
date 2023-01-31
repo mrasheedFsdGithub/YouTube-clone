@@ -1,0 +1,54 @@
+img {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+.video-preview {
+
+
+    vertical-align: top;
+
+  }
+
+  .channel-logo-div {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+
+  }
+
+  .channel-logo {
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+
+  }
+
+  .video-info {
+    display: inline-block;
+    width: 245px;
+  }
+
+  .video-info-1 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .video-info-2 {
+    color: rgb(170, 170, 170);
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  p {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .all-grid-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 20px;
+  }

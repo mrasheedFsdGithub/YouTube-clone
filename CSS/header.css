@@ -1,0 +1,101 @@
+.header-div{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+display: flex;
+justify-content: space-between;
+height: 50px;
+margin-bottom: 20px;
+background-color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+.start-div{
+
+margin-right: 50px;
+display: flex;
+justify-content: center;
+}
+
+.middle-div{
+    padding-left: -1000px;
+    margin-left: -20px;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    min-width: 0;
+    max-width: 600px;
+}
+
+.end-div{
+   
+  margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+.menu-img{
+   width: 60px;
+   height: 50px;
+}
+.youtubeLogo-img{
+    width: 150px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+.end-div-img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.middle-div-img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    
+}
+.search-input{
+    margin-right: 0px;
+    display: flex;
+    flex: 9;
+    width: 0;
+    height: 30px;
+}
+.middle-search-div-img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 10px;
+    
+}
+
+
+.header2-div{
+    position: fixed;
+    top: 70px;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    margin-left: 250px;
+}
+button{
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 100px;
+    padding: 5px 10px 5px 10px;
+}
+

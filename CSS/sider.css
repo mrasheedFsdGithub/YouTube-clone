@@ -1,0 +1,90 @@
+body{
+background-color: black;
+}
+
+ion-icon{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sider-SUBSCRIPTIONS{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sider-chennal-logo{
+    width: 30px;
+    border-radius: 50%;
+   
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sider{
+background-color: rgb(255, 255, 255);
+position: fixed;
+top: 70px;
+left: 0%;
+width: 250px;
+bottom: 0%;
+display: flex;
+flex-direction: column;
+z-index: 2;
+padding-top: 20px;
+}
+
+.sider-top{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: gray;
+    border-style: solid;
+}
+
+.sider-top-one{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sider-middle{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: gray;
+    border-style: solid;
+}
+.sider-middle-one{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sider-end{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: gray;
+    border-style: solid;
+}
+.sider-end-one{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
